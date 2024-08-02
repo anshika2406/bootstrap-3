@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset ="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><!--initial sacle means zoom level-->
+    <title>Forms </title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    
+    </head>
+    <body>
+      <div class="container-fluid">
+       <form class="form-inline">
+       <div class="form-group"> <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email" class="form-control"></div>
+
+       <div class="form-group"> <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password "class="form-control"></div>
+
+        <button type="submit" class="btn btn-default">Login</button>
+       </form> 
+
+       <br/>
+       <hr>
+
+       <form class="form-horizontal" >
+        <div class="form-group"> <label for="email" class="col-sm-2 control-label">Email:</label>
+
+       <div class="col-sm-10">
+        <input type="email" id="email" placeholder="Email" class="form-control">
+       </div>     
+        </div>
+ 
+        <div class="form-group"> <label for="password" class="col-sm-2 control-label">Password:</label>
+            <div class="col-sm-10">
+                <input type="password" id="password" placeholder="Password "class="form-control">
+            </div>
+         
+        </div>
+ 
+        <!--offset is used to jump cols in this case we jump 2 cols-->
+       <div 
+       
+       class="col-sm-offset-2 col-sm-10">  <button type="submit" class="btn btn-default">Login</button></div>
+        </form> 
+
+        <br/>
+        <hr>
+
+ <form>
+    <lable for="comments">Comments:</lable>
+   <textarea class="form-control"  rows="5" id="comments" ></textarea>
+
+<div class="checkbox checkbox-inline"><label><input type="checkbox" value="value1" id="checkbox1"> Checkbox1</label></div>
+
+<div class="checkbox checkbox-inline disabled"><label><input type="checkbox" value="value2" id="checkbox2"disabled > checkbox2</label></div>
+
+<br/>
+<br/>
+<hr>
+
+<div class="radio radio-inline"><label><input type="radio" name="radios" id="radio1" value="option1">Radio Option 1
+</label></div>
+
+<div class="radio radio-inline"><label><input type="radio" name="radios" id="radio2" value="option2">Radio Option 2
+</label></div>
+
+<div class="radio radio-inline"><label><input type="radio" name="radios" id="radio3" value="option3" disabled>Radio Option 3
+</label></div>
+
+<br/>
+<br/>
+<hr>
+
+<select  multiple class="form-control">
+ <option>Option 1</option> 
+ <option>Option 2</option> 
+ <option>Option 3</option>   
+</select>
+
+<br/>
+<hr>
+
+<input type="text" class="form-control" placeholder="Text Input" disabled>
+
+
+        </form>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+        </script>
+
+        <script src="js/bootstrap.min.js">
+        </script>
+        <!--</script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>--> 
+
+    
+  
+  </body>
+  </html>
